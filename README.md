@@ -22,3 +22,4 @@
   
       to find every occurrence in the whole file, with a prompt whether to
       substitute or not.
+7. **Type :! followed by an external command to execute that command**
