@@ -24,3 +24,5 @@
       substitute or not.
 7. **Type :! followed by an external command to execute that command**
 8. **Use . to repeat the previous command**
+## Neo Vim
+1. ctrl+w+v to split view
