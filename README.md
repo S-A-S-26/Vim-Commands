@@ -28,3 +28,4 @@
 1. ctrl+w+v to split view
 2. space s for opening search
 3. ctrl + / to get help while in search
+4. ctrl+w+h to go to neotree ctrl+w+l to go to currently open window
