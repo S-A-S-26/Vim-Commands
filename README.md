@@ -24,6 +24,7 @@
       substitute or not.
 7. **Type :! followed by an external command to execute that command**
 8. **Use . to repeat the previous command**
+9. n for next N for previous
 ## Neo Vim
 1. ctrl+w+v to split view
 2. space s for opening search
