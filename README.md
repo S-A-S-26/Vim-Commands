@@ -31,3 +31,21 @@
 3. ctrl + / to get help while in search
 4. ctrl+w+h to go to neotree ctrl+w+l to go to currently open window
 5. space w s to search through out workspace
+6.  There are several ways to create a terminal buffer:
+    Run the :terminal command.
+    Call the nvim_open_term() or termopen() function.
+    Edit a "term://" buffer. Examples:
+    
+    :edit term://bash
+    :vsplit term://top
+    
+        Note: To open a "term://" buffer from an autocmd, the autocmd-nested
+        modifier is required.
+    
+    autocmd VimEnter * ++nested split term://sh
+    
+        (This is only mentioned for reference; use :terminal instead.)
+    When the terminal starts, the buffer contents are updated and the buffer is
+    named in the form of term://{cwd}//{pid}:{cmd}. This naming scheme is used
+    by :mksession to restore a terminal buffer (by restarting the {cmd}).
+    The terminal environment is initialized as in jobstart-env.
