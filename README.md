@@ -26,3 +26,5 @@
 8. **Use . to repeat the previous command**
 ## Neo Vim
 1. ctrl+w+v to split view
+2. space s for opening search
+3. ctrl + / to get help while in search
