@@ -955,6 +955,50 @@ require("lazy").setup({
 				-- options
 			},
 		},
+		{ "pocco81/auto-save.nvim" },
+		{
+			"kylechui/nvim-surround",
+			version = "*", -- Use for stability; omit to use `main` branch for the latest features
+			event = "VeryLazy",
+			config = function()
+				require("nvim-surround").setup({
+					-- Configuration here, or leave empty to use defaults
+				})
+			end,
+		},
+		{
+			"akinsho/toggleterm.nvim",
+			version = "*",
+			opts = {--[[ things you want to change go here]]
+			},
+		},
+		{
+			"smoka7/hop.nvim",
+			version = "*",
+			-- opts = {
+			-- 	keys = "etovxqpdygfblzhckisuran",
+			-- },
+			config = function()
+				-- place this in one of your configuration file(s)
+				require("hop").setup({
+					-- Hop configuration goes there
+				})
+				local hop = require("hop")
+				local directions = require("hop.hint").HintDirection
+				vim.keymap.set("", "f", function()
+					hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = true })
+				end, { remap = true })
+				vim.keymap.set("", "F", function()
+					hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = true })
+				end, { remap = true })
+				vim.keymap.set("", "t", function()
+					hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = true, hint_offset = -1 })
+				end, { remap = true })
+				vim.keymap.set("", "T", function()
+					hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = true, hint_offset = 1 })
+				end, { remap = true })
+			end,
+		},
 	},
 
 	-- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
