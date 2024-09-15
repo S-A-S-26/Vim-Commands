@@ -49,3 +49,4 @@
     named in the form of term://{cwd}//{pid}:{cmd}. This naming scheme is used
     by :mksession to restore a terminal buffer (by restarting the {cmd}).
     The terminal environment is initialized as in jobstart-env.
+7. To show hidden files in neo tree press H.
