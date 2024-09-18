@@ -872,7 +872,7 @@ require("lazy").setup({
 	-- Highlight todo, notes, etc in comments
 	{
 		"folke/todo-comments.nvim",
-		event = "VimEnter",
+
 		dependencies = { "nvim-lua/plenary.nvim" },
 		opts = { signs = false },
 	},
@@ -1000,6 +1000,18 @@ require("lazy").setup({
 					hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = true, hint_offset = 1 })
 				end, { remap = true })
 			end,
+		},
+		{
+			"rmagatti/auto-session",
+			lazy = false,
+
+			---enables autocomplete for opts
+			---@module "auto-session"
+			---@type AutoSession.Config
+			opts = {
+				suppressed_dirs = { "~/", "~/Projects", "~/Downloads", "/" },
+				-- log_level = 'debug',
+			},
 		},
 	},
 
