@@ -51,3 +51,5 @@
     The terminal environment is initialized as in jobstart-env.
 7. To show hidden files in neo tree press H.
 8. install `sudo apt install ripgrep` in order for live grep to work.
+9. gd to jump to defination of a function.
+10. press '`' to move between the previous and current line.
