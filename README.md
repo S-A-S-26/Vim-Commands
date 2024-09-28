@@ -28,6 +28,7 @@
 10. e for end of line.
 11. ^ for begging of line which is not an empty string.
 12. F to jump backwards followed by the character wherever need to jump.
+13. press ma to bookmark the line so i could move back to it using backtick.
 ## Neo Vim
 1. ctrl+w+v to split view
 2. space s for opening search
