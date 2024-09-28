@@ -27,6 +27,7 @@
 9. n for next N for previous.
 10. e for end of line.
 11. ^ for begging of line which is not an empty string.
+12. F to jump backwards followed by the character wherever need to jump.
 ## Neo Vim
 1. ctrl+w+v to split view
 2. space s for opening search
