@@ -57,3 +57,4 @@
 8. install `sudo apt install ripgrep` in order for live grep to work.
 9. gd to jump to defination of a function.
 10. press '`' to move between the previous and current line.
+11. press space+ca to auto import things if it shows not imported on them.
