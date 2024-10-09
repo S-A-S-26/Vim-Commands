@@ -60,7 +60,7 @@
 11. press space+ca to auto import things if it shows not imported on them.
 12. To check current file name press 1 Ctrl + G.
 13. Second way to get current file name !ls %:p in command line.
-            :! - This runs an external shell command (in this case, ls) from within NeoVim.
+           ``` :! - This runs an external shell command (in this case, ls) from within NeoVim.
             ls - This is the shell command to list files in a directory.
             % - This represents the current file in the buffer (the file you are currently editing).
-            :p - This modifier turns the current file (%) into its full path      
+            :p - This modifier turns the current file (%) into its full path   ```   
