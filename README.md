@@ -37,6 +37,7 @@
 5. space w s to search through out workspace
 6.  There are several ways to create a terminal buffer:
     Run the :terminal command.
+7. In order to add html template type html:5 in inset mode and press ctrl + y in inset mode.
     Call the nvim_open_term() or termopen() function.
     Edit a "term://" buffer. Examples:
     
@@ -53,13 +54,13 @@
     named in the form of term://{cwd}//{pid}:{cmd}. This naming scheme is used
     by :mksession to restore a terminal buffer (by restarting the {cmd}).
     The terminal environment is initialized as in jobstart-env.
-7. To show hidden files in neo tree press H.
-8. install `sudo apt install ripgrep` in order for live grep to work.
-9. gd to jump to defination of a function.
-10. press '`' to move between the previous and current line.
-11. press space+ca to auto import things if it shows not imported on them.
-12. To check current file name press 1 Ctrl + G.
-13. Second way to get current file name !ls %:p in command line.
+8. To show hidden files in neo tree press H.
+9. install `sudo apt install ripgrep` in order for live grep to work.
+10. gd to jump to defination of a function.
+11. press '`' to move between the previous and current line.
+12. press space+ca to auto import things if it shows not imported on them.
+13. To check current file name press 1 Ctrl + G.
+14. Second way to get current file name !ls %:p in command line.
            ``` :! - This runs an external shell command (in this case, ls) from within NeoVim.
             ls - This is the shell command to list files in a directory.
             % - This represents the current file in the buffer (the file you are currently editing).
