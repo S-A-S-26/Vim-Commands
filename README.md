@@ -67,3 +67,12 @@
             :p - This modifier turns the current file (%) into its full path   ```   
 15. Surround word with whatever is needed with ysiw then b for bracket," for quote.
 16. use :mksesssion nameoffile to save session and :source nameoffile to load session.
+17.     Old text                    Command         New text
+--------------------------------------------------------------------------------
+    surr*ound_words             ysiw)           (surround_words)
+    *make strings               ys$"            "make strings"
+    [delete ar*ound me!]        ds]             delete around me!
+    remove <b>HTML t*ags</b>    dst             remove HTML tags
+    'change quot*es'            cs'"            "change quotes"
+    <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
+    delete(functi*on calls)     dsf             function calls
