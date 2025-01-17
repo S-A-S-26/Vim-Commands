@@ -65,3 +65,5 @@
             ls - This is the shell command to list files in a directory.
             % - This represents the current file in the buffer (the file you are currently editing).
             :p - This modifier turns the current file (%) into its full path   ```   
+15. Surround word with whatever is needed with ysiw then b for bracket," for quote.
+16. use :mksesssion nameoffile to save session and :source nameoffile to load session.
