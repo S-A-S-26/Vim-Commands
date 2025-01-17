@@ -70,7 +70,7 @@
 17.     Old text                    Command         New text
 --------------------------------------------------------------------------------
     surr*ound_words             ysiw)           (surround_words)
-    *make strings               ys$"            "make strings"
+    *make strings               ys$"            "make strings"  from the pointer to the end of line add string
     [delete ar*ound me!]        ds]             delete around me!
     remove <b>HTML t*ags</b>    dst             remove HTML tags
     'change quot*es'            cs'"            "change quotes"
